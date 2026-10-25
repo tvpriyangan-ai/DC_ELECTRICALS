@@ -6,7 +6,7 @@ menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classL
 
 // Active nav link + back-to-top
 const links=[...menu.querySelectorAll('a')];
-const secs=['home','director','team','projects','services','gallery','contact'].map(id=>document.getElementById(id));
+const secs=['home','director','team','projects','services','gallery','posters','store','contact'].map(id=>document.getElementById(id));
 const totop=document.getElementById('totop');
 addEventListener('scroll',()=>{
   totop.classList.toggle('show',scrollY>600);
