@@ -392,3 +392,4 @@ footer i{opacity:.4;font-style:normal}
 .dir-link{display:inline-flex;align-items:center;gap:6px;color:#2563eb;font-weight:600;margin-bottom:10px;text-decoration:underline;text-underline-offset:3px}
 .dir-link svg{width:18px;height:18px;flex:none}
 .dir-link:hover{color:var(--orange)}
+.dir-info .btn{vertical-align:middle}
